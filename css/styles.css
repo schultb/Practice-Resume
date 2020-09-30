@@ -68,6 +68,7 @@ h1, h2 {
 header {
     background: #2f3061;
     color: #f7fff7;
+    text-align: center;
 }
 
 
@@ -122,6 +123,12 @@ padding: 25px 0;
     background: #a1c6d7;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
 
 
 
@@ -140,4 +147,16 @@ padding: 25px 0;
 footer {
     background: #343434;
     color: #f7fff7;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
