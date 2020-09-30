@@ -10,6 +10,7 @@ COLOR PALETTE
 
 /* Global styles
 -------------------------------*/
+/* Always use the html tag below in case floats are used */
 html {
     box-sizing: border-box;
 }
